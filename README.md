@@ -56,6 +56,35 @@ In our original experiments, we conducted extensive evaluations, including:
 
 These results provide **solid and diverse evidence** supporting the effectiveness and adaptability of our method.
 
+### Response to Concerns on State Similarity in Gridworld
+
+
+We appreciate the reviewer’s concern regarding the potential limitations of **L2 distance** in capturing semantic similarity, especially in environments like Gridworld where states can appear close in Euclidean terms but behave very differently in the context of the policy. To address this, we conducted **additional experiments** specifically in Gridworld.
+
+<div align="center">
+    <img src="grid.jpg" width="70%" height ="100%" > 
+</div>
+<p align = 'center'>
+Figure 1. Gridworld with Peer States and Learned Q-Table
+</p>
+
+
+- **Experiment Setup**:
+   **Figure 1 (a)** shows a **Gridworld setup** where the deep green represents a given state, light green represents similar states (peer states), yellow represents the target point, and the red dot represents the starting point. This grid visualizes the issue where states, though close in Euclidean space, may have very different effects on the policy.
+
+- **Q-Table Insights**:
+   **Figure 2 (b)** displays the **learned Q-table**, where we see that the **max-min Q-value selection** mechanism ensures that non-optimal actions from similar states are filtered out. This mechanism assigns reasonable Q-values to the candidate actions, improving the **robustness** and **quality** of action selection.
+
+- **Key Findings**:
+   - Our **max-min mechanism** ensures that even when two states are close in Euclidean distance, the action chosen for policy optimization remains effective, as the mechanism prevents suboptimal actions from interfering with decision-making.
+   - These experiments demonstrate the **robustness** of our method in cases where the L2 distance does not fully capture the true relationship between states in the **policy space**, reinforcing the validity of our approach in sparse or complex environments.
+
+This additional experimentation validates that our method can handle state distance challenges and further strengthens our claims regarding its **generalization** and **robustness**.
+
+
+
+
+
 
 
 ###  **Enhanced Reporting with Statistical Evidence**
