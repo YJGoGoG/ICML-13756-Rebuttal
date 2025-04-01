@@ -68,7 +68,7 @@ In response to reviewers' concerns about the **lack of statistical testing** and
 ---
 
 ###  **Key Findings from Statistical Analysis**
-- On **MuJoCo** and **Adroit**, our method demonstrates **significant improvements** over the top 3 baselines (including **TD3+BC**, **CQL**, IQL), especially in terms of **generalization** and **performance stability**.
+- On **MuJoCo** and **Adroit**, our method demonstrates **significant improvements** over the **top 3 baselines**, especially in terms of **generalization** and **performance stability**.
 - On **AntMaze**, while we did not observe statistical significance due to the smaller number of tasks, our method’s **average performance** is still **highly competitive**, indicating that its advantages are not limited to only certain tasks.
 - **Best Performance Comparisons**: The addition of these comparisons shows that our method achieves **improved performance**, even when performance variability is considered.
 
@@ -150,7 +150,7 @@ We thank the reviewers for their valuable feedback, which has helped us enhance 
 | hammer-h       | 0.4 ± 0.4              | 2.5 ± 1.9              | 0.8 ± 0.4             |      4.9 ± 2.1        | **9.2** ± 6.5        |
 | hammer-c       | 0.8 ± 0.7              | 1.1 ± 0.5              | 0.3 ± 0.0             |      2.4 ± 1.2        | **12.7** ± 3.3       |
 | hammer-e       | 117.0 ± 30.9           |      129.6 ± 0.5       | 0.2 ± 0.0             | 121.7 ± 3.1           | **130.4** ± 3.8      |
-| relocate-h     | -0.2 ± 0.0             | 0.1 ± 0.1              | 0.1 ± 0.1             |      0.5 ± 0.7        | **2.7* ± 1.2*        |
+| relocate-h     | -0.2 ± 0.0             | 0.1 ± 0.1              | 0.1 ± 0.1             |      0.5 ± 0.7        | **2.7** ± 1.2*        |
 | relocate-c     | -0.1 ± 0.1             | 0.2 ± 0.4              | 0.0 ± 0.0             |      0.3 ± 0.2        | **1.1** ± 0.5        |
 | relocate-e     |      107.3 ± 1.6       | 106.5 ± 2.5            | -0.3 ± 0.0            | 105.7 ± 2.1           | **108.4** ± 1.4      |
 | **Average**    | 49.9                   | 53.5                   | 21.9                  |      53.8             | **62.5**             |
