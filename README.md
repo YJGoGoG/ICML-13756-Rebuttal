@@ -160,7 +160,7 @@ We thank the reviewers for their valuable feedback, which has helped us enhance 
 
 
 <p align="center">
-  Table 4. Bset normalized score over the final evaluation and five seeds on the Gym-MuJoCo tasks
+  Table 4. Best normalized score over the final evaluation and five seeds on the Gym-MuJoCo tasks
 </p>
 
 <div align="center">
