@@ -65,7 +65,7 @@ We appreciate the reviewer’s concern regarding the potential limitations of **
     <img src="grid.jpg" width="70%" height ="100%" > 
 </div>
 <p align = 'center'>
-Figure 1. Gridworld with Peer States and Learned Q-Table
+Figure 1. Gridworld with peer states and learned q-table
 </p>
 
 
